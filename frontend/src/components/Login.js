@@ -90,15 +90,6 @@ const Login = () => {
           className="empty-image"
         />
       </Logo>
-      {/* <RadioDiv>
-        <label htmlFor="signup">Signup</label>
-        <input
-          id="signup"
-          type="radio"
-          checked={mode === "signup"}
-          onChange={() => setMode("signup")}
-        />
-      </RadioDiv> */}
       <FormDiv onSubmit={onFormSubmit}>
         <Field>
           <LegendStyle>
@@ -125,13 +116,6 @@ const Login = () => {
 
         {mode === "signup" && (
           <>
-            {/* <label htmlFor="signin">Signin</label>
-            <input
-              id="signin"
-              type="radio"
-              checked={mode === "signin"}
-              onChange={() => setMode("signin")}
-            /> */}
             <Field>
               <LegendStyle>
                 <label htmlFor="email">Email</label>
